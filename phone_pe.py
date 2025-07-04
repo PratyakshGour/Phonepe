@@ -14,7 +14,7 @@ mydb= psycopg2.connect(host= "localhost",
                        user= "postgres",
                        port= "5432",
                        database= "phonepe_data",
-                       password= "Lgsharma12345@")
+                       password= "1234")
 cursor= mydb.cursor()
 
 #aggre_insurance_df
@@ -369,7 +369,7 @@ def top_chart_transaction_amount(table_name):
                         user= "postgres",
                         port= "5432",
                         database= "phonepe_data",
-                        password= "Lgsharma12345@")
+                        password= "1234")
     cursor= mydb.cursor()
 
     #plot_1
@@ -433,7 +433,7 @@ def top_chart_transaction_count(table_name):
                         user= "postgres",
                         port= "5432",
                         database= "phonepe_data",
-                        password= "Lgsharma12345@")
+                        password= "1234")
     cursor= mydb.cursor()
 
     #plot_1
@@ -497,7 +497,7 @@ def top_chart_registered_user(table_name, state):
                         user= "postgres",
                         port= "5432",
                         database= "phonepe_data",
-                        password= "Lgsharma12345@")
+                        password= "1234")
     cursor= mydb.cursor()
 
     #plot_1
@@ -562,7 +562,7 @@ def top_chart_appopens(table_name, state):
                         user= "postgres",
                         port= "5432",
                         database= "phonepe_data",
-                        password= "Lgsharma12345@")
+                        password= "1234")
     cursor= mydb.cursor()
 
     #plot_1
@@ -630,7 +630,7 @@ def top_chart_registered_users(table_name):
                         user= "postgres",
                         port= "5432",
                         database= "phonepe_data",
-                        password= "Lgsharma12345@")
+                        password= "1234")
     cursor= mydb.cursor()
 
     #plot_1
