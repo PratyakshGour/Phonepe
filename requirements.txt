@@ -1,8 +1,8 @@
-import streamlit as st
-from streamlit_option_menu import option_menu
-import psycopg2
-import pandas as pd
-import plotly.express as px
-import requests
-import json
-from PIL import Image
+streamlit as st
+streamlit_option_menu import option_menu
+psycopg2
+pandas as pd
+plotly.express as px
+requests
+json
+PIL import Image
